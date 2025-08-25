@@ -1,0 +1,3 @@
+FROM alpine:latest
+ENV DOCKER_LEARNER=beginner
+ENTRYPOINT ["printenv","DOCKER_LEARNER"]
