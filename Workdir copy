@@ -1,0 +1,4 @@
+FROM alpine:latest
+WORKDIR /myapp
+COPY filetobecopied .
+CMD ["echo","file copied successfully"]
