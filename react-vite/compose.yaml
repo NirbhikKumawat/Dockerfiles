@@ -1,0 +1,10 @@
+services:
+  react-vite:
+    build:
+      context: .
+    ports:
+      - 5173:5173
+    network_mode: host
+    volumes:
+      - .:/app
+      - /app/node_modules
